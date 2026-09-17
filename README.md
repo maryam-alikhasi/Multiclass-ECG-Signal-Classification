@@ -216,7 +216,7 @@ The trained model is saved as:
 models/multi_Classifier_96.h5
 ```
 
-## Loading the Model
+### Loading the Model
 ``` python 
 from tensorflow.keras.models import load_model
 
