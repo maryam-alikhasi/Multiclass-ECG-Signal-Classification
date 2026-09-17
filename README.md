@@ -213,14 +213,14 @@ The notebook also generates a **5 × 5 confusion matrix** to visualize the class
 The trained model is saved as:
 
 ```text
-models/ECG_Binary_Classifier_97.h5
+models/multi_Classifier_96.h5
 ```
 
 ## Loading the Model
 ``` python 
 from tensorflow.keras.models import load_model
 
-model = load_model("models/ECG_Binary_Classifier_97.h5")
+model = load_model("models/multi_Classifier_96.h5")
 ```
 
 The saved model can then be used for inference on ECG samples with the same input format used during training:
